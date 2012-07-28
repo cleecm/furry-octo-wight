@@ -1,0 +1,129 @@
+# If the Joomla site is installed within a folder such as at
+# e.g. www.example.com/joomla/ the robots.txt file MUST be
+# moved to the site root at e.g. www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to the disallowed
+# path, e.g. the Disallow rule for the /administrator/ folder
+# MUST be changed to read Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://www.sxw.org.uk/computing/robots/check.html
+
+User-agent: *
+Allow: /blog/
+Allow: /index.html
+Allow: /index.php
+Disallow: /blog_media/
+Disallow: /blog_portfolio/
+Disallow: /blog/administrator/
+Disallow: /blog/cache/
+Disallow: /blog/chi/
+Disallow: /blog/components/
+Disallow: /blog/docs/
+Disallow: /blog/editor/
+Disallow: /blog/help/
+Disallow: /blog/images.orig/
+Disallow: /blog/includes/
+Disallow: /blog/language/
+Disallow: /blog/libraries/
+Disallow: /blog/logs/
+Disallow: /blog/mambots/
+Disallow: /blog/media/
+Disallow: /blog/modules/
+Disallow: /blog/plugins/
+Disallow: /blog/templates/
+Disallow: /blog/installation/
+Disallow: /blog/tmp/
+Disallow: /blog/xmlrpc/
+Disallow: /blog/admin
+Disallow: /blog/administrator
+Disallow: /blog/admin/
+Disallow: /blog/admin.html
+Disallow: /blog//admin.php
+Disallow: /blog/tp.php
+Disallow: /blog/php.ini
+Disallow: /blog/prefix.php
+Disallow: /blog/web.conf.txt
+Disallow: /blog/clearcache.php
+Disallow: /freelance/
+Disallow: /header.pl/
+Disallow: /info.php/
+Disallow: /myfonts/
+Disallow: /mysql/
+Disallow: /robot.txt
+Disallow: /sitemap.xml
+Disallow: /ssl/
+Disallow: /tmp/
+Disallow: /butterflies.php
+Disallow: /resume-plain-20120328.doc
+Disallow: /cl-logo-091205.gif
+ 
+Sitemap:http://digitalblend-cl.com/sitemap.xml
+
+#Baiduspider
+User-agent: Baiduspider
+Disallow: /
+User-agent: Baiduspider+
+Disallow: /
+User-agent: Baiduspider+(+http://www.baidu.com/search/spider.htm)
+Disallow: /
+User-agent: Baiduspider/2.0;+http://www.baidu.com/search/spider.html
+Disallow: /
+User-agent: Baiduspider/2.0
+Disallow: /
+User-agent: +Baiduspider
+Disallow: /
+User-agent: +Baiduspider/2.0
+Disallow: /
+User-agent: +Baiduspider/2.0;++http://www.baidu.com/search/spider.html
+Disallow: /
+User-agent: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+Disallow: /
+
+#Yandex
+User-agent: spider
+Disallow: /
+User-agent: Yandex
+Disallow: /
+User-agent: Yandex.com
+Disallow: /
+User-agent: YandexBot/3.0
+Disallow: /
+
+#ahrefsbot
+User-agent: AhrefsBot
+Disallow: /
+User-agent: AhrefsBot/1.0
+Disallow: /
+User-agent: AhrefsBot/2.0
+Disallow: /
+User-agent: AhrefsBot/3.0
+Disallow: /
+User-agent: AhrefsBot/3.1
+Disallow: /
+User-agent: Mozilla/5.0 (compatible; AhrefsBot/3.1; +http://ahrefs.com/robot/)
+Disallow: /
+
+#Sosospider
+User-agent: Sosospider
+Disallow: /
+User-agent: Sosospider+
+Disallow: /
+
+#Ezooms
+User-agent: ezooms
+Disallow: /
+User-agent: Ezooms/1.0
+Disallow: /
+User-agent: Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+Disallow: /
+
+#Sogou
+User-agent: sogou spider
+Disallow: /
+
+# Disallow Internet Archiver Wayback Machine
+User-agent: ia_archiver
+Disallow: /
