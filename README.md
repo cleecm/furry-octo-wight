@@ -1,0 +1,1 @@
+This Repository is for all of the digitalblend-cl.com template and other code related files.
